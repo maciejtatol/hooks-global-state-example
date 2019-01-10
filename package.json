@@ -8,8 +8,7 @@
     "bootstrap-4": "4.0.0",
     "react": "16.7.0-alpha.2",
     "react-dom": "16.7.0-alpha.2",
-    "react-scripts": "2.0.3",
-    "use-state-history": "0.0.2"
+    "react-scripts": "2.0.3"
   },
   "devDependencies": {},
   "scripts": {
