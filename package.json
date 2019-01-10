@@ -1,0 +1,27 @@
+{
+  "name": "global-state-with-hooks-and-context-api",
+  "version": "1.0.0",
+  "description": "Example project with global state based on this idea -> https://github.com/diegohaz/constate",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "bootstrap-4": "4.0.0",
+    "react": "16.7.0-alpha.2",
+    "react-dom": "16.7.0-alpha.2",
+    "react-scripts": "2.0.3",
+    "use-state-history": "0.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
