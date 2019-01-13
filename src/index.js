@@ -1,9 +1,9 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import GlobalState from "./state";
-import Summary from "./components/Summary";
-import Inputs from "./components/Inputs";
-import "bootstrap/dist/css/bootstrap.min.css";
+import React from 'react'
+import ReactDOM from 'react-dom'
+import GlobalState from './state'
+import Summary from './components/Summary'
+import Inputs from './components/Inputs'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
   return (
@@ -15,8 +15,8 @@ function App() {
         <Summary />
       </GlobalState.Provider>
     </div>
-  );
+  )
 }
 
-const rootElement = document.getElementById("root");
-ReactDOM.render(<App />, rootElement);
+const rootElement = document.getElementById('root')
+ReactDOM.render(<App />, rootElement)
