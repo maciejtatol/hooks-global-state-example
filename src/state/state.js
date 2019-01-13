@@ -21,7 +21,7 @@ function GlobalState(useValue) {
   }
 
   Provider.defaultProps = {
-    defaultState: {},
+    defaultState: undefined,
   }
 
   return {
