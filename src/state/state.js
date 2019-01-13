@@ -6,11 +6,7 @@ import useState from './useState'
 // It provides its own Provider that will wraps it with Context API Provider,
 // and Context to utilize it
 function GlobalState(useValue) {
-  const warnNoProvider = () => console.warn('Missing provider')
-
-  const proxy = new Proxy({}, { get: warnNoProvider })
-
-  const Context = createContext(proxy)
+  const Context = createContext()
 
   const Provider = props => {
     const { children, defaultState } = props
