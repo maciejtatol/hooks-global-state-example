@@ -1,0 +1,6 @@
+.vscode
+.git
+coverage/
+build/
+node_modules/
+public/
