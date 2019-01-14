@@ -1,6 +1,6 @@
 # React Hooks Global State Concept
 
-This concept was based on this repository -> [https://github.com/diegohaz/constate](https://github.com/diegohaz/constate)
+Concept was based on this repository -> [https://github.com/diegohaz/constate](https://github.com/diegohaz/constate)
 
 ## Advantages:
 
@@ -13,4 +13,4 @@ This concept was based on this repository -> [https://github.com/diegohaz/consta
 
 - proper tests
 
-If you have better ideas please submit an issue
+If you have other/better ideas, feel free to submit an issue
