@@ -17,7 +17,7 @@ function GlobalState(useValue) {
 
   Provider.propTypes = {
     children: node.isRequired,
-    defaultState: shape({}), // defaultState depends on project reqiorements
+    defaultState: shape({}), // defaultState depends on project reqiurements
   }
 
   Provider.defaultProps = {
