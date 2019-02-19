@@ -2,12 +2,12 @@ import { useReducer } from 'react'
 import reducer from './reducer'
 import { SET_NAME, SET_SURNAME } from './consts'
 
-export const initialState = {
+export const defaultState = {
   name: 'John',
   surname: 'Doe',
 }
 
-export default initialState => {
+export default (initialState = defaultState) => {
   const [state, dispatch] = useReducer(reducer, initialState)
 
   // Example action creators
