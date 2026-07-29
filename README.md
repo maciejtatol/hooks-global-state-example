@@ -11,6 +11,5 @@ Concept was based on this repository -> [https://github.com/diegohaz/constate](h
 
 ## To be considered:
 
-- proper unit tests
 
 If you have other/better ideas, feel free to submit an issue
